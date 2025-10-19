@@ -33,36 +33,21 @@ git remote add origin https://github.com/Meghana-07-ops/Disease-Prediction-ML.gi
 cd disease-prediction-ml
 
 2. Create & activate virtual environment
-bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 3. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 
 4. Run migrations
-bash
-Copy
-Edit
 python manage.py makemigrations
 python manage.py migrate
 
 5. Run the server
-bash
-Copy
-Edit
 python manage.py runserver
 Now open your browser and go to http://127.0.0.1:8000/ 🎉
 
 🗃️ Project Structure
-text
-Copy
-Edit
 disease-prediction-ml/
 ├── app/                     # Django app with views, models, etc.
 ├── templates/               # HTML templates
